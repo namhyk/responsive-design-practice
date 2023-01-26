@@ -1,13 +1,17 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  color: #151515;
 }
 p {
   margin: 0;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #090909;
+}
+.bold {
+  font-weight: 700;
 }
 /* Header */
 header {
@@ -32,7 +36,23 @@ header {
   font-weight: 600;
   font-size: 1rem;
 }
-
+/* Main */
+main {
+  padding: 0 1em;
+}
+.blog-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1em;
+  padding: 0.5em 0;
+}
+.blog-date {
+  margin-top: 1.5em;
+}
+.blog-img {
+  width: 100%;
+  padding: 1.5em 0;
+}
 
 /* Footer */
 footer {
