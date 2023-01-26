@@ -54,6 +54,23 @@ main {
   padding: 1.5em 0;
 }
 
+.recent-posts-title {
+  padding: 1.5em 0;
+  text-align: center;
+}
+.other-blog-img {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.other-blog-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.25em 0;
+}
+.other-blog-content {
+  margin-bottom: 2.25em;
+}
+
 /* Footer */
 footer {
   background-color: #202020;
