@@ -1,5 +1,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
 p {
   margin: 0;
@@ -62,6 +63,9 @@ header {
   font-size: 1.25rem;
   max-width: 1000px;
 }
+.main-blog a {
+  color: white;
+}
 
 .blog {
   align-self: center;
@@ -83,6 +87,29 @@ header {
 .blog-content {
   color: #505050;
   margin-bottom: 1rem;
+}
+
+.view-more-section a {
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+/* Footer */
+footer {
+  background-color: #202020;
+  color: #ececec;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1.5em 0;
+}
+.copyright {
+  color: #d7d7d7;
+  font-weight: 500;
 }
 
 @media (max-width: 540px) {
