@@ -1,13 +1,17 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  color: #151515;
 }
 p {
   margin: 0;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #090909;
+}
+.bold {
+  font-weight: 700;
 }
 /* Header */
 header {
@@ -33,6 +37,49 @@ header {
   font-size: 1rem;
 }
 
+/* Main */
+main {
+  padding: 0 1em;
+}
+.profile-img {
+  height: 140px;
+  border-radius: 50%;
+  padding: 1em 0;
+}
+.page-title {
+  font-size: 1.75rem;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+}
+.page-body .bold {
+  font-size: 1.25rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.recent-posts-title {
+  padding: 1.5em 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.other-blog {
+  padding: 0.5em;
+  font-size: 0.9rem;
+}
+.other-blog-img {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.other-blog-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.25em 0;
+}
+.other-blog-content {
+  margin-bottom: 2.25em;
+}
+
 
 /* Footer */
 footer {
@@ -46,4 +93,29 @@ footer {
 .copyright {
   color: #d7d7d7;
   font-weight: 500;
+}
+
+@media (min-width: 550px) {
+  .overview {
+    display: flex;
+    gap: 2em;
+    padding: 0 1em;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .page-body {
+    padding: 2.5em 3em;
+  }
+}
+
+@media (min-width: 830px) {
+  .overview {
+    display: flex;
+    gap: 2em;
+    padding: 0 1.5em;
+    align-items: center;
+  }
+  .page-body {
+    padding: 2.5em 4em;
+  }
 }
